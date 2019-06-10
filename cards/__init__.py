@@ -2,15 +2,11 @@
 """
 
 from .deck import Deck
-from .deck import Faces
-from .deck import Suits
+from .card import Faces
+from .card import Suits
 
 __all__ = [
     'Deck',
     'Faces',    
     'Suits',
-
 ]
-    
-
-
